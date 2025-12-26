@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--注意静态文件-->
+        <meta charset="UTF-8"> <!-- 指定了网页内容的字符编码为UTF-8-->
+        <meta name="renderer" content="webkit"><!--使用 WebKit 渲染引擎来渲染网页-->
+        <meta http-equiv="x-ua-compatible" content="IE=edge"><!-- IE浏览器使用其最新的渲染引擎来显示网页，从而提供更好的性能和兼容性-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--使得网页能够根据不同的设备屏幕宽度自动调整布局-->
+        <meta name="description" content="I don't know what I'm going to use it for, just write it">
+        <script src="../../static/js/index_1.js"></script>
+        <title>二次元聚集地</title>
+        <link rel="icon" href="../../static/images/favicon.ico"><!--定义图标-->
+        <!--引入首页样式-->
+        <link rel="stylesheet" href="../../static/css/index.css">
+    </head>
+    <body>
+        <header id="head">
+            <div class="logo">
+                <h1>视频播放网站</h1>
+            </div>
+            <nav>
+                <ul class="left">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#categories">视频分类</a></li>
+                    <li><a href="#recommended">推荐视频</a></li>
+                    <li class="more"><a href="#more">更多</a>
+                        <ul class="more-menu">
+                            <li><a href="#latest">最新发布</a></li>
+                            <li><a href="#about">关于我们</a></li>
+                            <li><a href="#help">帮助中心</a></li>
+                            <li><a href="#contact">联系我们</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search-box">
+                    <input type="text" placeholder="搜索视频">
+                </div>
+                <ul class="right">
+                    <li>
+                        <a href="login.html">登录</a>
+                        <a href="register.html">注册</a>
+                    </li>
+                    <li>
+                        <img src="placeholder.png" alt="头像" class="profile-avatar" onerror="this.src='../../uploads/user/2.jpg'">
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--轮播图-->
+        <div class="lunbo">
+			<div class="content">
+                <ul id="item">
+                    <li class="item">
+                        <a href="#"><img src="../../static/images/login-background.jpg" ></a>
+                    </li>
+                    <li class="item">
+                        <a href="#"><img src="../../static/images/OIP-C.jpg" ></a>
+                    </li>
+                    <li class="item">
+                        <a href="#"><img src="../../static/images/4e2307f6def8e5b1382a26171cbbd1fc.jpg" ></a>
+                    </li>
+                    <li class="item">
+                        <a href="#"><img src="../../static/images/OIP-C%20(1).jpg" ></a>
+                    </li>
+                    <li class="item">
+                        <a href="#"><img src="../../static/images/sbt.jpg" ></a>
+                    </li>
+                </ul>
+                <div id="btn-left"><</div>
+                <div id="btn-right">></div>
+                <ul id="circle">
+                    <span class="circle" data-index="0"></span>
+                    <span class="circle" data-index="1"></span>
+                    <span class="circle" data-index="2"></span>
+                    <span class="circle" data-index="3"></span>
+                    <span class="circle" data-index="4"></span>
+                </ul>
+			</div>
+		</div>
+    </body>
+</html>
